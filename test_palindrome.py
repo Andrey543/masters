@@ -7,7 +7,7 @@ import lib
 class LibTest(unittest.TestCase):
 
 
-    def test_even(self):
+    def test_palindrome(self):
         self.assertEqual(lib.palindrome('q'),True)
         self.assertEqual(lib.palindrome('wqw'),True)
         self.assertEqual(lib.palindrome('abbbbcbbbba'),True)
