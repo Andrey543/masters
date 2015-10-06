@@ -7,8 +7,9 @@ import lib
 class LibTest(unittest.TestCase):
 
 
-    def test_even(self):
+    def test_even_1(self):
         self.assertEqual(lib.even(0),True)
+    def test_even_2(self):
         self.assertEqual(lib.even(-2),True)
 
 
