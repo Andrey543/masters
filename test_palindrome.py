@@ -7,10 +7,13 @@ import lib
 class LibTest(unittest.TestCase):
 
 
-    def test_palindrome(self):
+    def test_palindrome_1(self):
         self.assertEqual(lib.palindrome('q'),True)
-        self.assertEqual(lib.palindrome('wqw'),True)
+    def test_palindrome_2(self):
         self.assertEqual(lib.palindrome('abbbbcbbbba'),True)
+    def test_palindrome(self):
+        self.assertEqual(lib.palindrome(''),True)
+        self.assertEqual(lib.palindrome('1245'),False)
  
 
 
