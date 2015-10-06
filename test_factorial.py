@@ -7,7 +7,7 @@ import lib
 class LibTest(unittest.TestCase):
 
 
-    def test_even(self):
+    def test_factorial(self):
         #self.assertEqual(lib.factorial(0),1)
         #self.assertEqual(lib.factorial(2),2)
         #self.assertEqual(lib.factorial(1),1)
